@@ -1,0 +1,6 @@
+framework module Pods_jiheSwift {
+  umbrella header "Pods-jiheSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

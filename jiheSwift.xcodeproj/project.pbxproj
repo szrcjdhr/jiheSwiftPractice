@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76BB89B89A0E70C0A7DA1349 /* Pods_jiheSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCE88CAF3D0E3A6E43CCB25 /* Pods_jiheSwift.framework */; };
+		D7A8B5C922D6E4F70050FF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B5C822D6E4F70050FF28 /* AppDelegate.swift */; };
+		D7A8B5CB22D6E4F70050FF28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B5CA22D6E4F70050FF28 /* ViewController.swift */; };
+		D7A8B5CE22D6E4F70050FF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A8B5CC22D6E4F70050FF28 /* Main.storyboard */; };
+		D7A8B5D022D6E4F80050FF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A8B5CF22D6E4F80050FF28 /* Assets.xcassets */; };
+		D7A8B5D322D6E4F80050FF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A8B5D122D6E4F80050FF28 /* LaunchScreen.storyboard */; };
+		D7A8B5DE22D6E4F80050FF28 /* jiheSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B5DD22D6E4F80050FF28 /* jiheSwiftTests.swift */; };
+		D7A8B5E922D6E4F80050FF28 /* jiheSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B5E822D6E4F80050FF28 /* jiheSwiftUITests.swift */; };
+		D7A8B5F922D709D50050FF28 /* AppDelegate+JIHEUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B5F822D709D50050FF28 /* AppDelegate+JIHEUI.swift */; };
+		D7A8B5FC22D70D140050FF28 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B5FB22D70D140050FF28 /* UIView+Extension.swift */; };
+		D7A8B5FF22D70EC80050FF28 /* JIHEMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B5FE22D70EC80050FF28 /* JIHEMainTabBarViewController.swift */; };
+		D7A8B60422D70FB50050FF28 /* JIHEBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B60322D70FB50050FF28 /* JIHEBaseViewController.swift */; };
+		D7A8B60622D716460050FF28 /* JIHECarefullyChosenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B60522D716460050FF28 /* JIHECarefullyChosenViewController.swift */; };
+		D7A8B60A22D71C5C0050FF28 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B60922D71C5C0050FF28 /* Define.swift */; };
+		D7A8B60C22D731C20050FF28 /* JIHEBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B60B22D731C20050FF28 /* JIHEBaseNavigationController.swift */; };
+		D7A8B60E22D735DF0050FF28 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B60D22D735DF0050FF28 /* UIColor+Extension.swift */; };
+		D7A8B61222D838A70050FF28 /* JIHEMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B61122D838A70050FF28 /* JIHEMineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A8B5DA22D6E4F80050FF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A8B5BD22D6E4F70050FF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A8B5C422D6E4F70050FF28;
+			remoteInfo = jiheSwift;
+		};
+		D7A8B5E522D6E4F80050FF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A8B5BD22D6E4F70050FF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A8B5C422D6E4F70050FF28;
+			remoteInfo = jiheSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65FA0AE795465262B686AE10 /* Pods-jiheSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiheSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-jiheSwift/Pods-jiheSwift.release.xcconfig"; sourceTree = "<group>"; };
+		CCCE88CAF3D0E3A6E43CCB25 /* Pods_jiheSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jiheSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A8B5C522D6E4F70050FF28 /* jiheSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jiheSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A8B5C822D6E4F70050FF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7A8B5CA22D6E4F70050FF28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7A8B5CD22D6E4F70050FF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7A8B5CF22D6E4F80050FF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7A8B5D222D6E4F80050FF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7A8B5D422D6E4F80050FF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A8B5D922D6E4F80050FF28 /* jiheSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jiheSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A8B5DD22D6E4F80050FF28 /* jiheSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jiheSwiftTests.swift; sourceTree = "<group>"; };
+		D7A8B5DF22D6E4F80050FF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A8B5E422D6E4F80050FF28 /* jiheSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jiheSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A8B5E822D6E4F80050FF28 /* jiheSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jiheSwiftUITests.swift; sourceTree = "<group>"; };
+		D7A8B5EA22D6E4F80050FF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A8B5F822D709D50050FF28 /* AppDelegate+JIHEUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+JIHEUI.swift"; sourceTree = "<group>"; };
+		D7A8B5FB22D70D140050FF28 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D7A8B5FE22D70EC80050FF28 /* JIHEMainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIHEMainTabBarViewController.swift; sourceTree = "<group>"; };
+		D7A8B60322D70FB50050FF28 /* JIHEBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIHEBaseViewController.swift; sourceTree = "<group>"; };
+		D7A8B60522D716460050FF28 /* JIHECarefullyChosenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIHECarefullyChosenViewController.swift; sourceTree = "<group>"; };
+		D7A8B60922D71C5C0050FF28 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		D7A8B60B22D731C20050FF28 /* JIHEBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIHEBaseNavigationController.swift; sourceTree = "<group>"; };
+		D7A8B60D22D735DF0050FF28 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D7A8B61122D838A70050FF28 /* JIHEMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIHEMineViewController.swift; sourceTree = "<group>"; };
+		DED56BB30C3043DD9B12CB7F /* Pods-jiheSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiheSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jiheSwift/Pods-jiheSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A8B5C222D6E4F70050FF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BB89B89A0E70C0A7DA1349 /* Pods_jiheSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A8B5D622D6E4F80050FF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A8B5E122D6E4F80050FF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A8B5BC22D6E4F70050FF28 = {
+			isa = PBXGroup;
+			children = (
+				D7A8B5C722D6E4F70050FF28 /* jiheSwift */,
+				D7A8B5DC22D6E4F80050FF28 /* jiheSwiftTests */,
+				D7A8B5E722D6E4F80050FF28 /* jiheSwiftUITests */,
+				D7A8B5C622D6E4F70050FF28 /* Products */,
+				F86661AC9C3CC021B3A06164 /* Pods */,
+				EB89EBC9E8BF66D70B6D0DC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A8B5C622D6E4F70050FF28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B5C522D6E4F70050FF28 /* jiheSwift.app */,
+				D7A8B5D922D6E4F80050FF28 /* jiheSwiftTests.xctest */,
+				D7A8B5E422D6E4F80050FF28 /* jiheSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A8B5C722D6E4F70050FF28 /* jiheSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B60022D70F6D0050FF28 /* Home */,
+				D7A8B60F22D8386C0050FF28 /* Mine */,
+				D7A8B5F622D6E7440050FF28 /* Common */,
+				D7A8B5CA22D6E4F70050FF28 /* ViewController.swift */,
+				D7A8B5CC22D6E4F70050FF28 /* Main.storyboard */,
+				D7A8B5CF22D6E4F80050FF28 /* Assets.xcassets */,
+				D7A8B5D122D6E4F80050FF28 /* LaunchScreen.storyboard */,
+				D7A8B5D422D6E4F80050FF28 /* Info.plist */,
+			);
+			path = jiheSwift;
+			sourceTree = "<group>";
+		};
+		D7A8B5DC22D6E4F80050FF28 /* jiheSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B5DD22D6E4F80050FF28 /* jiheSwiftTests.swift */,
+				D7A8B5DF22D6E4F80050FF28 /* Info.plist */,
+			);
+			path = jiheSwiftTests;
+			sourceTree = "<group>";
+		};
+		D7A8B5E722D6E4F80050FF28 /* jiheSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B5E822D6E4F80050FF28 /* jiheSwiftUITests.swift */,
+				D7A8B5EA22D6E4F80050FF28 /* Info.plist */,
+			);
+			path = jiheSwiftUITests;
+			sourceTree = "<group>";
+		};
+		D7A8B5F622D6E7440050FF28 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B60222D70FA10050FF28 /* Controller */,
+				D7A8B5FD22D70EA70050FF28 /* MainTabBar */,
+				D7A8B5FA22D70C7A0050FF28 /* Category */,
+				D7A8B5F722D6E75D0050FF28 /* Appdelegate */,
+				D7A8B60922D71C5C0050FF28 /* Define.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D7A8B5F722D6E75D0050FF28 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B5C822D6E4F70050FF28 /* AppDelegate.swift */,
+				D7A8B5F822D709D50050FF28 /* AppDelegate+JIHEUI.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		D7A8B5FA22D70C7A0050FF28 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B5FB22D70D140050FF28 /* UIView+Extension.swift */,
+				D7A8B60D22D735DF0050FF28 /* UIColor+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D7A8B5FD22D70EA70050FF28 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B5FE22D70EC80050FF28 /* JIHEMainTabBarViewController.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		D7A8B60022D70F6D0050FF28 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B60122D70F760050FF28 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D7A8B60122D70F760050FF28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B60522D716460050FF28 /* JIHECarefullyChosenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7A8B60222D70FA10050FF28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B60322D70FB50050FF28 /* JIHEBaseViewController.swift */,
+				D7A8B60B22D731C20050FF28 /* JIHEBaseNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7A8B60F22D8386C0050FF28 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B61022D838780050FF28 /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		D7A8B61022D838780050FF28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8B61122D838A70050FF28 /* JIHEMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB89EBC9E8BF66D70B6D0DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE88CAF3D0E3A6E43CCB25 /* Pods_jiheSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F86661AC9C3CC021B3A06164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DED56BB30C3043DD9B12CB7F /* Pods-jiheSwift.debug.xcconfig */,
+				65FA0AE795465262B686AE10 /* Pods-jiheSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A8B5C422D6E4F70050FF28 /* jiheSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A8B5ED22D6E4F80050FF28 /* Build configuration list for PBXNativeTarget "jiheSwift" */;
+			buildPhases = (
+				9CDB20522ACF01893F45119A /* [CP] Check Pods Manifest.lock */,
+				D7A8B5C122D6E4F70050FF28 /* Sources */,
+				D7A8B5C222D6E4F70050FF28 /* Frameworks */,
+				D7A8B5C322D6E4F70050FF28 /* Resources */,
+				5E75D3D047F933024640F39A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jiheSwift;
+			productName = jiheSwift;
+			productReference = D7A8B5C522D6E4F70050FF28 /* jiheSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7A8B5D822D6E4F80050FF28 /* jiheSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A8B5F022D6E4F80050FF28 /* Build configuration list for PBXNativeTarget "jiheSwiftTests" */;
+			buildPhases = (
+				D7A8B5D522D6E4F80050FF28 /* Sources */,
+				D7A8B5D622D6E4F80050FF28 /* Frameworks */,
+				D7A8B5D722D6E4F80050FF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A8B5DB22D6E4F80050FF28 /* PBXTargetDependency */,
+			);
+			name = jiheSwiftTests;
+			productName = jiheSwiftTests;
+			productReference = D7A8B5D922D6E4F80050FF28 /* jiheSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7A8B5E322D6E4F80050FF28 /* jiheSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A8B5F322D6E4F80050FF28 /* Build configuration list for PBXNativeTarget "jiheSwiftUITests" */;
+			buildPhases = (
+				D7A8B5E022D6E4F80050FF28 /* Sources */,
+				D7A8B5E122D6E4F80050FF28 /* Frameworks */,
+				D7A8B5E222D6E4F80050FF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A8B5E622D6E4F80050FF28 /* PBXTargetDependency */,
+			);
+			name = jiheSwiftUITests;
+			productName = jiheSwiftUITests;
+			productReference = D7A8B5E422D6E4F80050FF28 /* jiheSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A8B5BD22D6E4F70050FF28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = szr;
+				TargetAttributes = {
+					D7A8B5C422D6E4F70050FF28 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D7A8B5D822D6E4F80050FF28 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D7A8B5C422D6E4F70050FF28;
+					};
+					D7A8B5E322D6E4F80050FF28 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D7A8B5C422D6E4F70050FF28;
+					};
+				};
+			};
+			buildConfigurationList = D7A8B5C022D6E4F70050FF28 /* Build configuration list for PBXProject "jiheSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A8B5BC22D6E4F70050FF28;
+			productRefGroup = D7A8B5C622D6E4F70050FF28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A8B5C422D6E4F70050FF28 /* jiheSwift */,
+				D7A8B5D822D6E4F80050FF28 /* jiheSwiftTests */,
+				D7A8B5E322D6E4F80050FF28 /* jiheSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A8B5C322D6E4F70050FF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A8B5D322D6E4F80050FF28 /* LaunchScreen.storyboard in Resources */,
+				D7A8B5D022D6E4F80050FF28 /* Assets.xcassets in Resources */,
+				D7A8B5CE22D6E4F70050FF28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A8B5D722D6E4F80050FF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A8B5E222D6E4F80050FF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E75D3D047F933024640F39A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jiheSwift/Pods-jiheSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jiheSwift/Pods-jiheSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jiheSwift/Pods-jiheSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CDB20522ACF01893F45119A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jiheSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A8B5C122D6E4F70050FF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A8B60622D716460050FF28 /* JIHECarefullyChosenViewController.swift in Sources */,
+				D7A8B5CB22D6E4F70050FF28 /* ViewController.swift in Sources */,
+				D7A8B60A22D71C5C0050FF28 /* Define.swift in Sources */,
+				D7A8B61222D838A70050FF28 /* JIHEMineViewController.swift in Sources */,
+				D7A8B60422D70FB50050FF28 /* JIHEBaseViewController.swift in Sources */,
+				D7A8B5C922D6E4F70050FF28 /* AppDelegate.swift in Sources */,
+				D7A8B60C22D731C20050FF28 /* JIHEBaseNavigationController.swift in Sources */,
+				D7A8B5FC22D70D140050FF28 /* UIView+Extension.swift in Sources */,
+				D7A8B5FF22D70EC80050FF28 /* JIHEMainTabBarViewController.swift in Sources */,
+				D7A8B5F922D709D50050FF28 /* AppDelegate+JIHEUI.swift in Sources */,
+				D7A8B60E22D735DF0050FF28 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A8B5D522D6E4F80050FF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A8B5DE22D6E4F80050FF28 /* jiheSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A8B5E022D6E4F80050FF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A8B5E922D6E4F80050FF28 /* jiheSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7A8B5DB22D6E4F80050FF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A8B5C422D6E4F70050FF28 /* jiheSwift */;
+			targetProxy = D7A8B5DA22D6E4F80050FF28 /* PBXContainerItemProxy */;
+		};
+		D7A8B5E622D6E4F80050FF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A8B5C422D6E4F70050FF28 /* jiheSwift */;
+			targetProxy = D7A8B5E522D6E4F80050FF28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7A8B5CC22D6E4F70050FF28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A8B5CD22D6E4F70050FF28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7A8B5D122D6E4F80050FF28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A8B5D222D6E4F80050FF28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A8B5EB22D6E4F80050FF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7A8B5EC22D6E4F80050FF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A8B5EE22D6E4F80050FF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED56BB30C3043DD9B12CB7F /* Pods-jiheSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH8JG4DAC7;
+				INFOPLIST_FILE = jiheSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiheSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7A8B5EF22D6E4F80050FF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FA0AE795465262B686AE10 /* Pods-jiheSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH8JG4DAC7;
+				INFOPLIST_FILE = jiheSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiheSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7A8B5F122D6E4F80050FF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jiheSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiheSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jiheSwift.app/jiheSwift";
+			};
+			name = Debug;
+		};
+		D7A8B5F222D6E4F80050FF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jiheSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiheSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jiheSwift.app/jiheSwift";
+			};
+			name = Release;
+		};
+		D7A8B5F422D6E4F80050FF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jiheSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiheSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jiheSwift;
+			};
+			name = Debug;
+		};
+		D7A8B5F522D6E4F80050FF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jiheSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiheSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jiheSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A8B5C022D6E4F70050FF28 /* Build configuration list for PBXProject "jiheSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A8B5EB22D6E4F80050FF28 /* Debug */,
+				D7A8B5EC22D6E4F80050FF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A8B5ED22D6E4F80050FF28 /* Build configuration list for PBXNativeTarget "jiheSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A8B5EE22D6E4F80050FF28 /* Debug */,
+				D7A8B5EF22D6E4F80050FF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A8B5F022D6E4F80050FF28 /* Build configuration list for PBXNativeTarget "jiheSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A8B5F122D6E4F80050FF28 /* Debug */,
+				D7A8B5F222D6E4F80050FF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A8B5F322D6E4F80050FF28 /* Build configuration list for PBXNativeTarget "jiheSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A8B5F422D6E4F80050FF28 /* Debug */,
+				D7A8B5F522D6E4F80050FF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A8B5BD22D6E4F70050FF28 /* Project object */;
+}
